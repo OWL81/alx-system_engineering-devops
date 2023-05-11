@@ -23,3 +23,13 @@ This script sets the permissions of "hello" to match those of "olleh".
 This script adds execute permission to all subdirectories of the current directory for everyone.
 ## 12. More directories
 This script creates a directory called "my_dir" with permissions "751".
+## 13. Change Group
+This script changes the group owner to "school" for the file "hello".
+## 14. Owner and Group
+This script changes the owner to "vincent" and the group owner to "staff" for all the files and directories in the working directory.
+## 15. Symbolic Links
+This script changes the owner and the group owner of "_hello" to "vincent" and "staff" respectively. The file "_hello" is a symbolic link.
+## 16. If Only
+This script changes the owner of the file "hello" to "betty" only if it is owned by the user "guillaume".
+## 17. Star Wars
+This script will play the StarWars IV episode in the terminal.
